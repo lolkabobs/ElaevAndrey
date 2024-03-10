@@ -1,0 +1,276 @@
+body {
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+h1, h2, h3, .novbar-brand {
+	font-family: Merriweather, Arial, Helvetica, sans-serif;
+}
+
+.d1{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.d2 {
+	text-align: right;
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.novbar {
+	background: transparent !important;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.novbar-brand {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #005fa3 !important;
+}
+
+.nav {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.nav li {
+	margin-left: 40px;
+}
+
+.project {
+	background: #EBEBEB;
+	padding-bottom: 50px;
+}
+
+.project h2 {
+	padding-top: 80px;
+	padding-bottom: 60px;
+	font-weight: 900;
+	font-size: 48px;
+	color: #333333;
+}
+
+.project .project_item > div {
+	height: 360px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.project .project_item .img_bg {
+	width: inherit;
+	height: inherit;
+	background: rgba(0, 0, 0, 0.65);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 15px;
+	right: 15px;
+}
+
+.project .project_item .img_bg:hover {
+	background: rgba(0, 95, 163, 0.65);
+}
+
+.project .project_item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.project .project_item > div h3{
+	position: absolute;
+	left: 51px;
+	bottom: 36px;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-weight: 24px;
+	color: #ffffff;
+}
+
+.project_2 {
+	background: #d9d9d9;
+	height: 250px;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.project_2 h6 {
+	font-size: 55px;
+}
+
+.project_2:hover, .project_2:hover a {
+	background: #005FA3;
+	height: 250px;
+	margin-bottom: 30px;
+ 	color: white;
+}
+
+.project_3 {
+	padding-bottom: 50px;
+}
+
+.project_3 h6 {
+	font-size: 48px;
+	color: #005fa3;
+}
+
+.project_3 .pr_img img {
+	width: 100%;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.project_3 .project_item {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.project_3 .project_item .img_bg {
+	width: inherit;
+	height: inherit;
+	background: rgba(0, 0, 0, 0.65);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.obo_mne {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.obo_mne h2 {
+	font-size: 24px;
+}
+
+.obo_mne h3 {
+	font-size: 48px;
+	color: #005fa3;
+}
+
+.feedback {
+	min-height: 623px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/bg.jpg), #c4c4c4;
+	background-size: cover;
+}
+
+.feedback h6 {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 69px;
+	color: #ffffff;
+	margin-top: 122px;
+}
+
+.feedback p {
+	font-family: font-family: Lato, Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 25px;
+	color: #ffffffd9;
+	margin-top: 60px;
+}
+
+.feedback .col-lg {
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 29px;
+	color: #ffffff;
+	margin-top: 80px;
+}
+
+.feedback .col-lg img {
+	padding-right: 16px;
+	padding-left: 32px;
+}
+
+.feedback .col-lg .cont {
+	text-align: center;
+}
+
+.feedback form {
+	margin-top: 142px;
+}
+
+.feedback form label {
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+}
+
+.feedback form input,
+.feedback form textarea {
+	background: transparent;
+	font-weight: 300;
+	font-size: 21px;
+	border: none;
+	border-radius: 0;
+	border-bottom:  1px solid #ffffff;
+	padding: 0;
+}
+
+.feedback .massage {
+	margin-top: 35px;
+}
+
+.feedback form input:placeholder,
+.feedback form textarea:placeholder {
+	color: #BDBDBD;
+}
+
+.feedback form button {
+	width: 270px;
+	height: 60px;
+	border-radius: 0;
+	float: right;
+	margin-top: 50px;
+	background: #005FA3;
+	color: #fff;
+	border: none;
+}
+
+@media (max-width: 575.98px) {
+	.novbar-brand {
+		font-size: 24px;
+		line-height: 42px;
+	}
+
+	.novbar-toggler {
+		border: 0;
+	}
+
+	.feedback form {
+		margin-top: 30px;
+	}
+
+	.feedback form label{
+		margin-top: 14px;
+	}
+
+	.feedback form button {
+		width: 100%;
+		height: 60px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.d1{
+		width: 100%;
+	}
+
+	.d2 {
+		text-align: left;
+	}
+
+	.project_2 {
+		display: none;
+	}
+}
